@@ -41,6 +41,31 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"comment" : "",
+					"id" : "obj-5",
+					"index" : 0,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 307.0, 398.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-4",
+					"index" : 0,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 307.0, 37.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
 					"id" : "obj-3",
 					"index" : 0,
 					"maxclass" : "outlet",
@@ -75,13 +100,13 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "envelope.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
+					"numinlets" : 2,
+					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 80.0, 112.0, 246.0, 237.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 30.0, 222.0, 228.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 259.0, 190.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -96,8 +121,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-1", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 1 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -108,12 +147,23 @@
 			"obj-1::obj-143" : [ "Gain[1]", "Gain", 0 ],
 			"obj-1::obj-146" : [ "Delay Synced", "Delay", 0 ],
 			"obj-1::obj-156" : [ "Delay Mode", "Delay Mode", 1 ],
+			"obj-1::obj-169" : [ "envOn", "envOn", 0 ],
+			"obj-1::obj-172" : [ "thresOn", "thresOn", 0 ],
 			"obj-1::obj-180" : [ "Delay", "Delay", 0 ],
+			"obj-1::obj-183" : [ "thres", "Thres", 0 ],
+			"obj-1::obj-204" : [ "envActive", "envActive", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-1::obj-183" : 				{
+					"parameter_longname" : "thres"
 				}
 
 			}
