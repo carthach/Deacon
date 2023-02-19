@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -46,7 +46,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 318.0, 570.0, 65.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "release $1"
 				}
 
@@ -142,7 +141,14 @@
 					"patching_rect" : [ 243.0, 490.97943115234375, 181.0, 113.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 207.755292889859959, 81.25, 82.360139860139896, 70.0 ],
-					"rounded" : 10
+					"rounded" : 10,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
@@ -388,7 +394,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -422,6 +428,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-47",
@@ -668,12 +675,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 217.0, 241.0, 166.0, 22.0 ],
+									"patching_rect" : [ 217.0, 241.0, 152.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"verbose" : 1
 									}
 ,
-									"text" : "mubu.track ---corpus markers"
+									"text" : "mubu.track ---corpus descr"
 								}
 
 							}
@@ -1078,7 +1085,14 @@
 									"patching_rect" : [ 435.5, 13.0, 368.0, 653.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 14.5, 11.5, 487.230865499999936, 195.5 ],
-									"rounded" : 10
+									"rounded" : 10,
+									"saved_attribute_attributes" : 									{
+										"bgfillcolor" : 										{
+											"expression" : ""
+										}
+
+									}
+
 								}
 
 							}
@@ -2403,11 +2417,23 @@
 								"multi" : 0
 							}
  ],
-						"bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ]
+						"saved_attribute_attributes" : 						{
+							"default_plcolor" : 							{
+								"expression" : ""
+							}
+
+						}
+
 					}
 ,
 					"patching_rect" : [ 146.5, 443.97943115234375, 44.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"default_plcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2613,7 +2639,14 @@
 					"patching_rect" : [ 243.0, 357.97943115234375, 194.0, 106.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 207.755292889859959, 1.75, 124.220279720279848, 73.5 ],
-					"rounded" : 10
+					"rounded" : 10,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
@@ -2723,7 +2756,14 @@
 					"patching_rect" : [ 243.0, 228.97943115234375, 177.0, 108.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 104.5, 81.25, 98.0, 70.0 ],
-					"rounded" : 10
+					"rounded" : 10,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
@@ -2833,7 +2873,14 @@
 					"patching_rect" : [ 243.0, 100.97943115234375, 177.0, 107.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 103.129370629370669, 1.75, 100.741258741258662, 73.5 ],
-					"rounded" : 10
+					"rounded" : 10,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
@@ -2945,7 +2992,14 @@
 					"patching_rect" : [ 50.0, 228.97943115234375, 162.0, 108.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.423248269230839, 81.25, 97.576751730769161, 70.0 ],
-					"rounded" : 10
+					"rounded" : 10,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
@@ -3067,7 +3121,14 @@
 					"patching_rect" : [ 50.0, 100.97943115234375, 162.0, 108.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.423248269230839, 1.75, 98.922637961538385, 73.5 ],
-					"rounded" : 10
+					"rounded" : 10,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
@@ -3374,258 +3435,13 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-11" : [ "bachauto", "auto", 0 ],
-			"obj-116" : [ "periodrel", "relative", 0 ],
-			"obj-117" : [ "periodabs", "absolute", 0 ],
-			"obj-128" : [ "periodvarrel", "relative", 0 ],
-			"obj-129" : [ "periodvarabs", "absolute", 0 ],
-			"obj-134" : [ "durationvarrel", "relative", 0 ],
-			"obj-135" : [ "durationvarabs", "absolute", 0 ],
-			"obj-140" : [ "transvar", "trans var", 0 ],
-			"obj-141" : [ "trans", "trans", 0 ],
-			"obj-22" : [ "Edit", "Edit", 0 ],
-			"obj-3" : [ "attack", "attack", 0 ],
-			"obj-38" : [ "reverse", "reverse", 0 ],
-			"obj-4" : [ "release", "release", 0 ],
-			"obj-41::obj-19" : [ "textedit", "textedit", 0 ],
-			"obj-41::obj-21" : [ "live.text", "live.text", 0 ],
-			"obj-41::obj-23" : [ "bachlo", "lo", 0 ],
-			"obj-41::obj-24" : [ "bachhi", "hi", 0 ],
-			"obj-83" : [ "reverseRand", "live.toggle", 0 ],
-			"obj-98" : [ "durationabs", "absolute", 0 ],
-			"obj-99" : [ "durationrel", "relative", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
+		"saved_attribute_attributes" : 		{
+			"default_plcolor" : 			{
+				"expression" : ""
+			}
 
-			}
-,
-			"inherited_shortname" : 1
 		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "bach.-.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 8/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.<=.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.abs.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 8/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.args.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.collect.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.contains.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.depth.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.dx2x.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 8/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.eq.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.expr.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.filter.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 8/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.filternull.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 8/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.flat.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.geq.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.gt.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.is.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.iter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.join.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.length.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.lookup.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 8/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.lt.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.maximum.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 8/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.minimum.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 8/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.minmax.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.n2mc.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.nearest.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 8/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.neq.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.nth.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.pick.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.portal.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.print.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.random.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 8/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.reg.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.repeat.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 8/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.rev.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.roll.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.sieve.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 8/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.step.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.sum.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 8/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.wrap.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "cage.arpeggio.maxpat",
-				"bootpath" : "~/Music/Ableton/User Library/Presets/Audio Effects/Max Audio Effect/Deacon",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cage.checkbachversion.maxpat",
-				"bootpath" : "~/Music/Ableton/User Library/Presets/Audio Effects/Max Audio Effect/Deacon",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mubu.track.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+
 	}
 
 }
