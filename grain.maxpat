@@ -153,13 +153,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 35.0, 259.0, 362.0, 22.0 ],
+					"patching_rect" : [ 35.0, 259.0, 628.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"outputstate" : 0,
 						"resampleaudioinput" : 0
 					}
 ,
-					"text" : "mubu.concat~ 1 ---corpus @audio audio @markers descr @play 1"
+					"text" : "mubu.concat~ 1 ---corpus @audio audio @markers descr @play 1 @maxduration 10000 @minmaxperiod 0.2 10000"
 				}
 
 			}
