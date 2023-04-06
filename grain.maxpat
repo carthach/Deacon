@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 3,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -153,13 +153,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 35.0, 259.0, 628.0, 22.0 ],
+					"patching_rect" : [ 35.0, 259.0, 662.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"outputstate" : 0,
 						"resampleaudioinput" : 0
 					}
 ,
-					"text" : "mubu.concat~ 1 ---corpus @audio audio @markers descr @play 1 @maxduration 10000 @minmaxperiod 0.2 10000"
+					"text" : "mubu.concat~ 1 carthachcorpus @audio audio @markers descr @play 1 @maxduration 10000 @minmaxperiod 0.2 10000"
 				}
 
 			}
