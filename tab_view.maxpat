@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2002.0, 420.0, 957.0, 573.0 ],
+		"rect" : [ 663.0, 273.0, 1183.0, 726.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -147,11 +147,11 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "envelope.maxpat",
+					"name" : "envosc.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal" ],
+					"outlettype" : [ "signal", "" ],
 					"patching_rect" : [ 80.0, 112.0, 246.0, 237.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 338.0, 167.0 ],
@@ -176,20 +176,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 1 ],
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-7", 0 ]
 				}
@@ -207,6 +193,7 @@
 			"obj-1::obj-180" : [ "Delay", "Delay", 0 ],
 			"obj-1::obj-183" : [ "thres", "Thres", 0 ],
 			"obj-1::obj-204" : [ "envActive", "envActive", 0 ],
+			"obj-1::obj-7" : [ "OSC", "OSC", 0 ],
 			"obj-6::obj-11" : [ "bachauto", "auto", 0 ],
 			"obj-6::obj-116" : [ "periodrel", "relative", 0 ],
 			"obj-6::obj-117" : [ "periodabs", "absolute", 0 ],
@@ -217,7 +204,9 @@
 			"obj-6::obj-140" : [ "transvar", "trans var", 0 ],
 			"obj-6::obj-141" : [ "trans", "trans", 0 ],
 			"obj-6::obj-22" : [ "Edit", "Edit", 0 ],
+			"obj-6::obj-3" : [ "attack", "attack", 0 ],
 			"obj-6::obj-38" : [ "reverse", "reverse", 0 ],
+			"obj-6::obj-4" : [ "release", "release", 0 ],
 			"obj-6::obj-41::obj-19" : [ "textedit", "textedit", 0 ],
 			"obj-6::obj-41::obj-21" : [ "live.text", "live.text", 0 ],
 			"obj-6::obj-41::obj-23" : [ "bachlo", "lo", 0 ],
@@ -458,7 +447,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "envelope.maxpat",
+				"name" : "envosc.maxpat",
 				"bootpath" : "~/Music/Ableton/User Library/Presets/Audio Effects/Max Audio Effect/Deacon",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
