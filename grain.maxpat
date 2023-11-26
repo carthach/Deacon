@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 3,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1895.0, 396.0, 877.0, 550.0 ],
+		"rect" : [ 2086.0, -136.0, 877.0, 550.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -153,13 +153,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 35.0, 259.0, 662.0, 22.0 ],
+					"patching_rect" : [ 35.0, 259.0, 674.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"outputstate" : 0,
 						"resampleaudioinput" : 0
 					}
 ,
-					"text" : "mubu.concat~ 1 carthachcorpus @audio audio @markers descr @play 1 @maxduration 10000 @minmaxperiod 0.2 10000"
+					"text" : "mubu.concat~ 1 ---carthachcorpus @audio audio @markers descr @play 1 @maxduration 10000 @minmaxperiod 0.2 10000"
 				}
 
 			}
